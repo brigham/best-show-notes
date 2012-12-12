@@ -1,0 +1,11 @@
+---
+layout: page
+title: Best Show Notes
+---
+<div>This is where the notes will go!</div>
+
+<ul>
+  {% for post in site.posts %}
+    <li>{{ post.date | date "%B %e, %Y" }} - <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
