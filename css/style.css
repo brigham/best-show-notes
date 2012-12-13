@@ -1,0 +1,7 @@
+body {
+    font-family: Futura, sans-serif;
+}
+
+p > em:first-child {
+    color: red;
+}
